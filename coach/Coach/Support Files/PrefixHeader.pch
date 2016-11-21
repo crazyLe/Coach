@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  Coach
+//
+//  Created by apple on 16/7/11.
+//  Copyright © 2016年 sskz. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import "header.h"
+#import "UIColor+Hex.h"
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "SuperTableViewCell.h"
+#import "SuperViewController.h"
+#import "UIView+Borders.h"
+#import "NSMutableAttributedString+LLExtension.h"
+#import "NSString+Extension.h"
+#import "UITableView+NoExtraLine.h"
+#import "NSObject+HJGeneral.h"
+#import "CONST.h"
+#import "UIViewController+ESSeparatorInset.h"
+#import "GHDateTools.h"
+#import "NSDate+HJ.h"
+#import "NetworkEngine.h"
+#import <YYKit.h>
+#import "UIViewController+LLExtension.h"
+#import "LLUtils.h"
+#import <MJExtension/MJExtension.h>
+
+#import "NotificationNameConst.h"
+#import "NSString+LLRegEx.h"
+#import "SCDBManager.h"
+
+#endif
+#endif /* PrefixHeader_pch */
